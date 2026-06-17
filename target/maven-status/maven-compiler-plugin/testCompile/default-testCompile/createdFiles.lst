@@ -1,0 +1,7 @@
+stepDef\Registration.class
+stepDef\ForgotPassword.class
+stepDef\Dashboard.class
+hooks\HooksSetup.class
+stepDef\Login.class
+runner\FailedRunner.class
+runner\TestRunner.class
