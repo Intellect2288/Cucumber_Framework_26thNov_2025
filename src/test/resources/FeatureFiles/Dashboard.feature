@@ -14,6 +14,8 @@ Then user should see dashboard url as "https://opensource-demo.orangehrmlive.com
 
   Scenario :verify claim page is getting opened
     When user user login with username "Admin" and password "admin123"
+    Then user should be navigated to dashboard page
     Then user should see "claim" button
     When user clicks on claim button
     And user should see this url "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
+

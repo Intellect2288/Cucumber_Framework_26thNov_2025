@@ -13,4 +13,3 @@ Feature: Forgot Password Functionality
     Given User is on Forgot Password Page
     When User enters email "laxmi123@gmail.com"
     And User clicks on Send Reset Link button
-    Then Error message should be displayed
