@@ -23,7 +23,7 @@ Examples:
 |username | password |email |
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
 |Admin    | Laxmi@123|vivek@gmail.com|
-#|Laxmi    | admin123 |yash@gmail.com|
+|Laxmi    | admin123 |yash@gmail.com|
 
 
 

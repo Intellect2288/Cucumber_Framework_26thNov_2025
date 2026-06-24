@@ -1,0 +1,10 @@
+# Extent Reports
+ExtentReport*
+test-output/
+Reports/
+
+# Logs
+*.log
+
+# Maven target folder
+target/
