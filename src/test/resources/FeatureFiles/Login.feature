@@ -23,9 +23,15 @@ Examples:
 |username | password |email |
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
 |Admin    | Laxmi@123|vivek@gmail.com|
-|Laxmi    | admin123 |yash@gmail.com|
+#|Laxmi    | admin123 |yash@gmail.com|
 
+  @Smoke @Regression
+  Scenario: verify title of the login page
+    Then user should see title as "OrangeHRM"
 
+  @Smoke @Regression
+  Scenario: verify url of the login page
+    Then user should see title as "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 
 
 
