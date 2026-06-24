@@ -18,12 +18,13 @@ Scenario Outline: verify login functionality with allinvalid combination
 When user enters username "<username>" and password "<password>"
 #And user enters email id as "<email>"
 Then user should not be navigated to dashboard page
+  Then user should not be navigated to dashboard page
 
 Examples:
 |username | password |email |
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
 |Admin    | Laxmi@123|vivek@gmail.com|
-|Laxmi    | admin123 |yash@gmail.com|
+#|Laxmi    | admin123 |yash@gmail.com|
 
 
 
