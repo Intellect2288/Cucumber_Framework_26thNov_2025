@@ -8,6 +8,10 @@ Scenario: Verify url of the dashboard page
 When user login with username "Admin" and password "admin123"
 Then user should see dashboard url as "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
 
+  Scenario: Verify Leave button is displayed on dashboard page
+    When user login with username "Admin" and password "admin123"
+    Then user should see Leave button
+
   Scenario: Verify claim button is displayed on Dashboard page
     When user login with username "Admin" and password "admin123"
     Then user should see claims button

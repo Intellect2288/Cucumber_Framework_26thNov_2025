@@ -12,3 +12,4 @@ Feature: Forgot Password Functionality
   Scenario: Reset Password with Invalid Email
     Given User is on Forgot Password Page
     When User enters email "laxmi123@gmail.com"
+    And clicks on send reset link on the email
