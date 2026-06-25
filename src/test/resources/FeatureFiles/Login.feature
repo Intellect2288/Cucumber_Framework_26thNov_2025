@@ -24,6 +24,8 @@ Examples:
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
 |Admin    | Laxmi@123|vivek@gmail.com|
 #|Laxmi    | admin123 |yash@gmail.com|
+|Admin2    | Admin2@123|vivek@gmail.com|
+
 
   @Smoke @Regression
   Scenario: verify title of the login page
@@ -34,5 +36,8 @@ Examples:
     Then user should see title as "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 
 
+  @Smoke @Regression
+  Scenario: verify logo is displayed on login page
+    Then user should see the logo as "OrangeHRM"
 
 
