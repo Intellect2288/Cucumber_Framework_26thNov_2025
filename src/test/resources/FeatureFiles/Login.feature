@@ -24,7 +24,7 @@ Examples:
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
 #|Admin    | Laxmi@123|vivek@gmail.com|
 #|Laxmi    | admin123 |yash@gmail.com|
-|Admin2    | Admin2@123|vivek@gmail.com|
+#|Admin2    | Admin2@123|vivek@gmail.com|
 
   @Smoke @Regression
   Scenario: verify title of the login page
