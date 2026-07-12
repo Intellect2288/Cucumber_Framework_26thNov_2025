@@ -2,7 +2,7 @@
 ExtentReport*
 test-output/
 Reports/
-
+.idea/
 # Logs
 *.log
 
