@@ -8,7 +8,7 @@ Given user is on login page
 
  @Smoke @Regression @login1
 Scenario: verify login functionality with valid username & valid password
-When user enters username as ""
+When user enters username as "Admin"
 And user enters password as "admin123"
 And user clicks on login button
 Then user should be navigated to dashboard page
