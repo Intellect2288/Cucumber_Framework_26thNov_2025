@@ -8,7 +8,7 @@ Given user is on login page
 
  @Smoke @Regression @login1
 Scenario: verify login functionality with valid username & valid password
-When user enters username as ""
+When user enters username as "Admin"
 And user enters password as "admin123"
 And user clicks on login button
 Then user should be navigated to dashboard page
@@ -22,9 +22,9 @@ Then user should not be navigated to dashboard page
 Examples:
 |username | password |email |
 |Laxmi    | Laxmi@123|laxmi@gmail.com|
-#|Admin    | Laxmi@123|vivek@gmail.com|
+|Admin    | Laxmi@123|vivek@gmail.com|
 #|Laxmi    | admin123 |yash@gmail.com|
-|Admin2    | Admin2@123|vivek@gmail.com|
+#|Admin2    | Admin2@123|vivek@gmail.com|
 
   @Smoke @Regression @login3
   Scenario: verify title of the login page
